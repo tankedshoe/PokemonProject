@@ -86,11 +86,11 @@ bg=blue</panel_attributes>
     <coordinates>
       <x>190</x>
       <y>300</y>
-      <w>90</w>
-      <h>190</h>
+      <w>80</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;170.0</additional_attributes>
+    <additional_attributes>60.0;130.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
