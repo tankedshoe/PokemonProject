@@ -5,6 +5,14 @@ public abstract class Pokemon
 	private int healthPoints;
 	private int attackPoints;
 	private double enhancementModifier;
+	private String name;
+	private int number;
+	
+	public Pokemon(int number, String name)
+	{
+		this.name = name;
+		this.number = number;
+	}
 	public int getHealthPoints()
 	{
 		return healthPoints;
@@ -60,8 +68,6 @@ public abstract class Pokemon
 		return number;
 	}
 
-	private int number;
-	private String name;
 	private boolean canEvolve;
 	
 	public Pokemon(String name, int number)

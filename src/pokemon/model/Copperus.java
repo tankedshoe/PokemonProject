@@ -1,13 +1,12 @@
 package pokemon.model;
 
-public class Metacular extends Pokemon implements Steel
+public class Copperus extends Pokemon implements Steel
 {
 	private int power;
 	
-	public Metacular(int number, String name)
+	public Copperus(int number, String name)
 	{
 		super(number, name);
-		
 	}
 	
 	public void hardenBody()
@@ -22,6 +21,6 @@ public class Metacular extends Pokemon implements Steel
 	
 	public int powerPunch(int power)
 	{
-		return power;
+		return 0;
 	}
 }
