@@ -35,6 +35,34 @@ public class PokemonPanel
 	private JPanel thirdType;
 	private JPanel fourthType;
 	
+	public PokemonPanel()
+	{
+		super();
+		this.appController = appController;
+		
+		this.healthLabel = new JLabel("0");
+		this.attackLabel = new JLabel("Default Attack.");
+		this.nameLabel = new JLabel("Default Name");
+		this.numberLabel = new JLabel("0");
+		this.evolvableLabel = new JLabel("No Modifier");
+		this.iconLabel = new JLabel("Default Icon");
+		
+		this.evolvableBox = new JCheckBox();
+		this.nameField = new JTextField(20);
+		this.numberField = new JTextField(20);
+		this.attackField = new JTextField(20);
+		this.healthField = new JTextField(20);
+		this.modifierField = new JTextField(20);
+		
+		this.descriptionArea = new JTextArea(10, 25);
+		this.typeArea = new JTextArea(10, 25);
+				
+		
+		setupPanel();
+		setupLayout();
+		setupListeners();
+	}
+	
 	private void updatePokedexInfo(int index)
 	{
 		nameField.setText(appController.getPokedex().get(index).getName());
@@ -47,7 +75,7 @@ public class PokemonPanel
 	
 	private void setupPanel()
 	{
-		
+		this.add(healthLabel);
 	}
 	
 	private void setupLayout()
