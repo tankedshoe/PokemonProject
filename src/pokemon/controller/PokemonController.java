@@ -18,6 +18,11 @@ public class PokemonController
 		buildPokedex();
 	}
 	
+	public void start()
+	{
+		
+	}
+	
 	private void buildPokedex()
 	{
 		pokedex.add(new Antima());
