@@ -204,4 +204,13 @@ public class PokemonPanel extends JPanel
 		});
 	}
 	
+	public void updateImage()
+	{
+		
+	}
+	
+	public void updateTypePanels()
+	{
+		
+	}
 }
